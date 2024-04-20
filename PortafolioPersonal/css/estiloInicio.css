@@ -1,0 +1,59 @@
+﻿body{
+    margin: 0;
+    width: 100%;
+    font-family: monospace;
+}
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobreMi {
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    transition: 0.5s;
+}
+.sobreMi .container{
+    width: 80%;
+}
+.sobreMi .title {
+    font-size: 50px;
+    border-bottom: 2px solid #00AAC2;
+}
+.informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    transition: 0.5s;
+}
+.informacion:hover{
+    transform: scale(1.1);
+}
+.informacion img {
+    float: left;
+    width: 450px;
+    height: 500px;
+    border-radius: 50%;
+}
+.informacion p{
+    font-size: 25px;
+    margin-left: 20px;
+}
+strong{
+    color: #00AAC2;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    background-color:black;
+}
+
